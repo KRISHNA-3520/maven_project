@@ -1,0 +1,26 @@
+package com.practice.mavenproject;
+
+import java.util.HashMap;
+
+public class hashmap {
+
+	public static void main(String[] args) {
+
+		HashMap<String, Integer> map = new HashMap<>();
+    	map.put("Krishna", 10);
+    	map.put("Binita",20);
+    	map.put("Krishna", 30);
+    	map.put("Naresh",null);
+  
+    	System.out.println("Size of the map is : "+map.size());
+    	System.out.println("Content inside map : "+map);    	
+    	if(map.containsKey("Krishna"))
+    	{
+    		int a = map.get("Krishna");
+    		System.out.println("Index of Krishna "+a);
+    	}    }
+
+
+	}
+
+}

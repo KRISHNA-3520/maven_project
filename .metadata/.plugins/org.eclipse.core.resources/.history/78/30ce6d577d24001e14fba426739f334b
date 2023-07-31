@@ -1,0 +1,27 @@
+package com.practice.mavenproject;
+
+
+class Parent {
+	
+	static int show(int a,int b) {
+		System.out.println("Calling Parent Class");
+		return a+b;
+	}
+}
+class Child extends Parent{
+	static int show(int a,int b) {
+		System.out.println("Calling Child Class");
+		return a-b;
+	}
+}
+public class methodOverriding {
+	public static void main(String[]args) {
+		
+		Parent p1=new Parent();
+		System.out.println(Parent.show(5,5));;
+		
+		Parent p2=new Child();
+		System.out.println(Parent.show(5,3));
+		
+	}
+}

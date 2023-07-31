@@ -1,0 +1,10 @@
+package com.practice.mavenproject;
+
+public class methodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
